@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.top{
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    align-content: center;  
+}
+input{
+    padding: 140px;
+    margin:40px;
+    font-size: 40px;
+}
+.container{
+    padding:40px;
+    margin:40px;
+    border-radius: 190px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+button{
+    padding:30px;
+    background-color:lightblue;
+    font-size: 20px;
+}
